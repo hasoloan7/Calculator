@@ -1,0 +1,110 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="Test_Apps" time="24.054" tests="1" failures="0" errors="0">
+   <testsuite name="Test_Apps" tests="1" failures="0" errors="0" time="24.054" skipped="0" timestamp="24-04-2024T15:12:50" hostname="lasmasilalahi - localhost" id="Test Suites/Test_Apps">
+      <properties>
+         <property name="deviceName" value="emulator-5554 (sdk_gphone64_arm64 - Android 14)"/>
+         <property name="devicePlatform" value=""/>
+         <property name="logFolder" value="/Users/lasmasilalahi/Katalon Studio/Project mobile/Reports/20240424_151244/Test_Apps/20240424_151244"/>
+         <property name="logFiles" value="/Users/lasmasilalahi/Katalon Studio/Project mobile/Reports/20240424_151244/Test_Apps/20240424_151244/execution0.log, /Users/lasmasilalahi/Katalon Studio/Project mobile/Reports/20240424_151244/Test_Apps/20240424_151244/appium_error.log, /Users/lasmasilalahi/Katalon Studio/Project mobile/Reports/20240424_151244/Test_Apps/20240424_151244/appium.log"/>
+         <property name="attachments" value=""/>
+         <property name="hostName" value="lasmasilalahi - localhost"/>
+         <property name="os" value="Mac OS X 64bit"/>
+         <property name="appiumServerStatus" value="{&quot;value&quot;:{&quot;ready&quot;:true,&quot;message&quot;:&quot;The server is ready to accept new connections&quot;,&quot;build&quot;:{&quot;version&quot;:&quot;2.5.3&quot;}}}"/>
+         <property name="katalonVersion" value="9.3.1.212"/>
+         <property name="deviceOS" value="Android"/>
+         <property name="appiumVersion" value="2.5.3"/>
+         <property name="deviceModel" value="sdk_gphone64_arm64"/>
+         <property name="hostAddress" value="127.0.0.1"/>
+         <property name="deviceManufacturer" value="Google"/>
+         <property name="deviceId" value="emulator-5554"/>
+         <property name="deviceName" value="emulator-5554 (sdk_gphone64_arm64 - Android 14)"/>
+         <property name="deviceOSVersion" value="14"/>
+      </properties>
+      <testcase name="Test Cases/Calculator" time="23.979" classname="Test Cases/Calculator" status="PASSED">
+         <system-out><![CDATA[24-04-2024T15:12:50 - [TEST_CASE][PASSED] - Test Cases/Calculator: Test Cases/Calculator
+
+24-04-2024T15:12:50 - [TEST_STEP][PASSED] - startApplication("/Users/lasmasilalahi/Katalon Studio/Project mobile/Mobile Apps/Calculator_8.6.apk", true): Started app at: '/Users/lasmasilalahi/Katalon Studio/Project mobile/Mobile Apps/Calculator_8.6.apk'
+
+24-04-2024T15:12:50 - [MESSAGE][INFO] - Detected NodeJS location: "/usr/local/bin/node"
+
+24-04-2024T15:12:50 - [MESSAGE][INFO] - PATH: /opt/homebrew/bin:/usr/bin:/bin:/usr/sbin:/sbin:/Applications/Katalon Studio Arm64.app/Contents/Eclipse/jre/Contents/Home/bin:/usr/local/bin/
+
+24-04-2024T15:12:50 - [MESSAGE][INFO] - APPIUM_HOME: /Users/lasmasilalahi/.appium
+
+24-04-2024T15:12:50 - [MESSAGE][INFO] - appium outlog: /Users/lasmasilalahi/Katalon Studio/Project mobile/Reports/20240424_151244/Test_Apps/20240424_151244/appium.log
+
+24-04-2024T15:12:50 - [MESSAGE][INFO] - appium errlog: /Users/lasmasilalahi/Katalon Studio/Project mobile/Reports/20240424_151244/Test_Apps/20240424_151244/appium_error.log
+
+24-04-2024T15:12:52 - [MESSAGE][INFO] - Appium server started on port 53,629
+
+24-04-2024T15:13:04 - [MESSAGE][PASSED] - Started app at: '/Users/lasmasilalahi/Katalon Studio/Project mobile/Mobile Apps/Calculator_8.6.apk'
+
+24-04-2024T15:13:04 - [TEST_STEP][PASSED] - tap(findTestObject("Object Repository/Test Calculator/numberSeven_Button"), 0): Tapped on element 'Object Repository/Test Calculator/numberSeven_Button'
+
+24-04-2024T15:13:04 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+24-04-2024T15:13:05 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Test Calculator/numberSeven_Button'
+
+24-04-2024T15:13:05 - [TEST_STEP][PASSED] - tap(findTestObject("Object Repository/Test Calculator/addition_Button"), 0): Tapped on element 'Object Repository/Test Calculator/addition_Button'
+
+24-04-2024T15:13:05 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+24-04-2024T15:13:06 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Test Calculator/addition_Button'
+
+24-04-2024T15:13:06 - [TEST_STEP][PASSED] - tap(findTestObject("Object Repository/Test Calculator/numberNine_Button"), 0): Tapped on element 'Object Repository/Test Calculator/numberNine_Button'
+
+24-04-2024T15:13:06 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+24-04-2024T15:13:07 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Test Calculator/numberNine_Button'
+
+24-04-2024T15:13:07 - [TEST_STEP][PASSED] - tap(findTestObject("Object Repository/Test Calculator/min_Button"), 0): Tapped on element 'Object Repository/Test Calculator/min_Button'
+
+24-04-2024T15:13:07 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+24-04-2024T15:13:07 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Test Calculator/min_Button'
+
+24-04-2024T15:13:07 - [TEST_STEP][PASSED] - tap(findTestObject("Object Repository/Test Calculator/numberOne_Button"), 0): Tapped on element 'Object Repository/Test Calculator/numberOne_Button'
+
+24-04-2024T15:13:08 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+24-04-2024T15:13:08 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Test Calculator/numberOne_Button'
+
+24-04-2024T15:13:08 - [TEST_STEP][PASSED] - tap(findTestObject("Object Repository/Test Calculator/multiplication_Button"), 0): Tapped on element 'Object Repository/Test Calculator/multiplication_Button'
+
+24-04-2024T15:13:08 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+24-04-2024T15:13:09 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Test Calculator/multiplication_Button'
+
+24-04-2024T15:13:09 - [TEST_STEP][PASSED] - tap(findTestObject("Object Repository/Test Calculator/numberNine_Button"), 0): Tapped on element 'Object Repository/Test Calculator/numberNine_Button'
+
+24-04-2024T15:13:09 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+24-04-2024T15:13:10 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Test Calculator/numberNine_Button'
+
+24-04-2024T15:13:10 - [TEST_STEP][PASSED] - tap(findTestObject("Object Repository/Test Calculator/division_Button"), 0): Tapped on element 'Object Repository/Test Calculator/division_Button'
+
+24-04-2024T15:13:10 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+24-04-2024T15:13:10 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Test Calculator/division_Button'
+
+24-04-2024T15:13:10 - [TEST_STEP][PASSED] - tap(findTestObject("Object Repository/Test Calculator/numberTwo_Button"), 0): Tapped on element 'Object Repository/Test Calculator/numberTwo_Button'
+
+24-04-2024T15:13:10 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+24-04-2024T15:13:11 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Test Calculator/numberTwo_Button'
+
+24-04-2024T15:13:11 - [TEST_STEP][PASSED] - tap(findTestObject("Object Repository/Test Calculator/equivalent_Button"), 0): Tapped on element 'Object Repository/Test Calculator/equivalent_Button'
+
+24-04-2024T15:13:11 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+24-04-2024T15:13:12 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Test Calculator/equivalent_Button'
+
+24-04-2024T15:13:12 - [TEST_STEP][PASSED] - closeApplication(): Close app successfully
+
+24-04-2024T15:13:14 - [MESSAGE][PASSED] - Close app successfully]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <system-out><![CDATA[24-04-2024T15:12:50 - [TEST_SUITE][PASSED] - Test_Apps: Test Cases/Calculator]]></system-out>
+      <system-err><![CDATA[]]></system-err>
+   </testsuite>
+</testsuites>

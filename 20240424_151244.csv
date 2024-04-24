@@ -1,0 +1,16 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+Test_Apps,,,,24-04-2024 15:12:50,24-04-2024 15:13:14,24.054s,PASSED
+,,,,,,,
+Test Cases/Calculator,,,,24-04-2024 15:12:50,24-04-2024 15:13:14,23.979s,PASSED
+"startApplication(""/Users/lasmasilalahi/Katalon Studio/Project mobile/Mobile Apps/Calculator_8.6.apk"", true)",,,,24-04-2024 15:12:50,24-04-2024 15:13:04,14.088s,PASSED
+"tap(findTestObject(""Object Repository/Test Calculator/numberSeven_Button""), 0)",,,,24-04-2024 15:13:04,24-04-2024 15:13:05,1.159s,PASSED
+"tap(findTestObject(""Object Repository/Test Calculator/addition_Button""), 0)",,,,24-04-2024 15:13:05,24-04-2024 15:13:06,0.667s,PASSED
+"tap(findTestObject(""Object Repository/Test Calculator/numberNine_Button""), 0)",,,,24-04-2024 15:13:06,24-04-2024 15:13:07,0.700s,PASSED
+"tap(findTestObject(""Object Repository/Test Calculator/min_Button""), 0)",,,,24-04-2024 15:13:07,24-04-2024 15:13:07,0.724s,PASSED
+"tap(findTestObject(""Object Repository/Test Calculator/numberOne_Button""), 0)",,,,24-04-2024 15:13:07,24-04-2024 15:13:08,0.705s,PASSED
+"tap(findTestObject(""Object Repository/Test Calculator/multiplication_Button""), 0)",,,,24-04-2024 15:13:08,24-04-2024 15:13:09,0.760s,PASSED
+"tap(findTestObject(""Object Repository/Test Calculator/numberNine_Button""), 0)",,,,24-04-2024 15:13:09,24-04-2024 15:13:10,0.749s,PASSED
+"tap(findTestObject(""Object Repository/Test Calculator/division_Button""), 0)",,,,24-04-2024 15:13:10,24-04-2024 15:13:10,0.698s,PASSED
+"tap(findTestObject(""Object Repository/Test Calculator/numberTwo_Button""), 0)",,,,24-04-2024 15:13:10,24-04-2024 15:13:11,0.713s,PASSED
+"tap(findTestObject(""Object Repository/Test Calculator/equivalent_Button""), 0)",,,,24-04-2024 15:13:11,24-04-2024 15:13:12,0.889s,PASSED
+closeApplication(),,,,24-04-2024 15:13:12,24-04-2024 15:13:14,2.002s,PASSED
